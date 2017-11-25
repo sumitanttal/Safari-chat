@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text size's-->
+    <dimen name="txt_size_12sp">@dimen/_12sdp</dimen>
+    <dimen name="txt_size_14sp">@dimen/_14sdp</dimen>
+    <dimen name="txt_size_16sp">@dimen/_16sdp</dimen>
+    <dimen name="txt_size_18sp">@dimen/_18sdp</dimen>
+    <dimen name="txt_size_20sp">@dimen/_20sdp</dimen>
+
+    <!--Margin size's-->
+    <dimen name="acticity_default_margin_10dp">@dimen/_10sdp</dimen>
+    <dimen name="acticity_default_margin_12dp">@dimen/_12sdp</dimen>
+    <dimen name="acticity_default_margin_14dp">@dimen/_14sdp</dimen>
+    <dimen name="acticity_default_margin_16dp">@dimen/_16sdp</dimen>
+    <dimen name="acticity_default_margin_18dp">@dimen/_18sdp</dimen>
+    <dimen name="acticity_default_margin_20dp">@dimen/_20sdp</dimen>
+
+    <dimen name="header_height">@dimen/_50sdp</dimen>
+</resources>

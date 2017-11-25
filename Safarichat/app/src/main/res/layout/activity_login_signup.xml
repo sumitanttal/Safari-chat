@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="handler" type="com.sumit.safarichat.activity.Login_Signup_Activity"/>
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:background="@drawable/bg"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_login"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="actionListener"
+            android:padding="@dimen/acticity_default_margin_10dp"
+            android:background="@color/login_btn_bg"
+            android:textSize="@dimen/txt_size_20sp"
+            />
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_signup"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="actionListener"
+            android:padding="@dimen/acticity_default_margin_10dp"
+            android:textSize="@dimen/txt_size_20sp"
+            />
+    </LinearLayout>
+</LinearLayout>
+</layout>

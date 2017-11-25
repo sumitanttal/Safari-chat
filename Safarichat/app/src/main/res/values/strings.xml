@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Safarichat</string>
+    <string name="facebook_app_id">137681507003015</string>
+    <string name="fb_login_protocol_scheme">fb137681507003015</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_firstname">First name</string>
+    <string name="prompt_lastname">Last name</string>
+    <string name="prompt_jobtitle">Job title</string>
+    <string name="prompt_company">Company</string>
+    <string name="prompt_login">Log In</string>
+    <string name="prompt_signup">Sign up</string>
+    <string name="prompt_country">Country</string>
+    <string name="prompt_mobile">mobile</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cpassword">Confirm Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_empty_email">Email field cannot be empty</string>
+    <string name="error_empty_username">Username field cannot be empty</string>
+    <string name="error_empty_firstname">First name field cannot be empty</string>
+    <string name="error_empty_jobtittle">Job tittle field cannot be empty</string>
+    <string name="error_empty_company">Company field cannot be empty</string>
+    <string name="error_empty_country">Country field cannot be empty</string>
+    <string name="error_empty_phone">Mobile no field cannot be empty</string>
+    <string name="error_empty_lastname">Last name field cannot be empty</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_empty_password">This password cannot be empty</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_password_not_matched">Password not matched.</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="already_have_acc"><u>Already have an account ?</u></string>
+    <string name="signin_with_scocial_networks">Sign in with social networks</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="create_one">Create one</string>
+    <string name="create_username_password">Create username &amp; password</string>
+    <string name="privacy_policy_terms_services">By tapping Sign Up &amp; Accept,you agree to the</string>
+    <string name="terms_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="signup_accept">Sign Up &amp; Accept</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="message">Please allow the required permissions.</string>
+
+</resources>

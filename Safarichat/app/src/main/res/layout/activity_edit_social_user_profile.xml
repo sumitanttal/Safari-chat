@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="handler" type="com.sumit.safarichat.activity.EditSocialUserProfileActivity"/>
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+                <ImageView
+                    style="@style/App_Theme_Style_WW"
+                    android:padding="@dimen/acticity_default_margin_10dp"
+                    android:src="@drawable/back"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/acticity_default_margin_18dp"
+                android:paddingRight="@dimen/acticity_default_margin_18dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_weight="7">
+                <TextView
+                    style="@style/App_Theme_Style_WW"
+                    android:text="@string/edit_profile"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/txt_size_20sp"/>
+                <LinearLayout
+                    style="@style/App_Theme_Style_MW"
+                    android:orientation="horizontal">
+
+
+                <include
+                    android:id="@+id/lay_firstname"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_height="wrap_content"
+                    layout="@layout/material_edittext"
+                    />
+                <include
+                    android:id="@+id/lay_lastname"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_height="wrap_content"
+                    layout="@layout/material_edittext"
+                    />
+                </LinearLayout>
+                <include
+                    android:id="@+id/lay_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/material_edittext"
+                    />
+               <!-- <include
+                    android:id="@+id/lay_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/material_edittext"
+                    />-->
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    app:ccp_textSize="@dimen/txt_size_14sp"
+                    android:text="+92" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/acticity_default_margin_14dp"
+                    android:text="@string/save_profile"
+                    android:gravity="center"
+                    android:onClick="actionSaveProfile"
+                    android:layout_marginLeft="@dimen/acticity_default_margin_20dp"
+                    android:layout_marginRight="@dimen/acticity_default_margin_20dp"
+                    android:paddingTop="@dimen/acticity_default_margin_10dp"
+                    android:paddingBottom="@dimen/acticity_default_margin_10dp"
+                    android:background="@drawable/grey_btn_bg"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-bold"
+                    android:textSize="@dimen/txt_size_16sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
